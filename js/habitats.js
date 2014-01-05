@@ -38,10 +38,12 @@ function loadSubMenu(button) {
 function loadContent(button) {
 	var content = $("#content");
 	var old = content.html();
+	$("#footer").fadeOut(100);
 	content.fadeOut(100, function() {
 		content.empty();
 		content.load(button.toLowerCase() + ".html");
 		content.fadeIn("fast");
+		$("#footer").fadeIn("fast");
 	});
 }
 

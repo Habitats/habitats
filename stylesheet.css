@@ -1,22 +1,50 @@
 @CHARSET "ISO-8859-1";
 
 html {
-	font-family: Helvetica,Arial,  sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 }
 
 body {
 	background-color: #F2F2F2;
 	background-image: url("img/bg.png");
 	background-position: center;
+	background-attachment:fixed;
 	background-repeat: repeat-y;
 	margin: 0;
 	padding: 0;
 	margin: 0;
 }
 
-asd {
-	border: 1px dotted;
-	padding: 0;
+/* main heading */
+#content h1 {
+	font-size: 2em;
+	font-weight: 100;
+	margin: 50px 0 0 0;
+}
+
+/* sub title */
+#content h2 {
+	font-size: 1.3em;
+	font-weight: 100;
+	margin: 30px 0 0 0;
+}
+
+/* tiny subtitle */
+#content h3 {
+	display: inline-block;
+	font-size: 1em;
+}
+
+/* subtitle for main heading */
+#content h4 {
+	font-size: 0.8em;
+	font-weight: 100;
+	font-style: italic;
+	margin: 0 0 10px 50px;
+}
+
+#content p {
+	margin: 20px 0 0 30px;
 }
 
 #mainFrame {
@@ -61,16 +89,16 @@ asd {
 	height: 30px;
 	/*width:100px;*/
 	display: inline-block;
-	text-align: right;
-	font-size: 1.5em;
 	/*removes unwanted space between elements that're "block in-ine"*/
 	float: left;
 	background-image: url("img/vert_line.png");
-	background-repeat:repeat-y;
+	background-repeat: repeat-y;
 	background-position: right;
+	text-align: right;
+	font-size: 1.3em;
 }
 
-.link:hover{
+.link:hover {
 	color: #595959;
 }
 
@@ -94,23 +122,24 @@ asd {
 	line-height: 40px;
 	vertical-align: middle;
 	background-image: url("img/vert_line.png");
-	background-repeat:repeat-y;
+	background-repeat: repeat-y;
 	background-position: right;
 }
 
-li div{
+li div {
 	padding-bottom: 5px;
 	position: relative;
-	display:inline-block;
+	display: inline-block;
 	height: 100%;
 }
 
 #content {
-	height: 400px;
+	height: auto;
 	width: 55%;
 	display: inline-block;
 	float: left;
-	padding-left: 30px;
+	padding-left: 50px;
+	min-height: 400px;
 }
 
 #footer {
@@ -119,7 +148,11 @@ li div{
 	clear: both;
 	bottom: 0;
 	text-align: right;
-	padding-right:20px;
+	font-size: 0.6em;
+	color: #595959;
+	padding:0px 200px 20px 500px;
+	bottom: 0;
+
 }
 
 /*replicate link behavior on custom elements*/
@@ -134,24 +167,7 @@ li div{
 	user-select: none;
 }
 
-.link:hover{
-/* 	font-style: italic; */
-}
-
-.horizontalLine{
-	height: 2px;
-	width: 90%;
-	background-color: #d2d2d2;
-	margin: auto;
-	clear:both;
-	display:block;
-}
-
-.verticalLine{
-	width: 2px;
-height: 100%;
-	background-color: #d2d2d2;
-	display:inline-block;
-	float:rigth;
-	margin: 0 10px;
+.link:hover {
+	/* 	font-style: italic; */
+	
 }
