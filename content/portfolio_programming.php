@@ -33,7 +33,14 @@
 	Link: <a href="https://github.com/Habitats/uni/tree/master/img_processing">github</a>
 </p>
 
-<h2>funQuery</h2>
+
+<h2>Habitats.no</h2>
+<p>This site! It utilizes a little bit of everything. All the source can be find on github.
+<p>
+	Link: <a href="https://github.com/Habitats/habitats">github</a>
+</p>
+
+<h2>charlietheunicorn.org</h2>
 <p>jQuery -- hows does it work? Just a stupid little jQuery-playground.</p>
 <p>
 	Link: <a href="https://github.com/Habitats/funQuery">github</a>
