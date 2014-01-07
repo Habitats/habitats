@@ -4,6 +4,7 @@ $password = $_POST["password"];
 
 echo "Username: " . $username . "\n" . "Password: " . $password;
 if($username == "habitats" && $password == "derp"){
-	header("Location: about.php");
+	header("Location: content/about.php?loggedIn");
+
 }
 ?>

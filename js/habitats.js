@@ -25,16 +25,17 @@ var buttonPrototype = {
 	},
 };
 
-function Button(name, text) {
+function Button(name, text, extension) {
+	this.extension = extension || ".php";
 	this.name = name;
 	this.text = text;
-	this.location = "content/" + this.name + ".php";
+	this.location = "content/" + this.name + this.extension;
 }
 Button.prototype = buttonPrototype;
 
 /* button factory, abstractions bitch! */
-function b(name, text) {
-	return new Button(name, text);
+function b(name, text,extension) {
+	return new Button(name, text,extension);
 }
 
 var btnHome = b(home, "Home");
@@ -44,7 +45,7 @@ var btnAbout = b(about, "About");
 
 btnHome.setChildren([ b(home, "derp"), b(home, "herp"), b(home, "nerp") ]);
 btnPortfolio.setChildren([ b(programming, "Programming"), b(visual, "Visual"), b(misc, "Misc") ]);
-btnCV.setChildren([ b(cv, "linkedIn") ]);
+btnCV.setChildren([ b("cv", "View Online", ".mht") ]);
 btnAbout.setChildren([ b(about, "who am I?"), b(contact, "Contact") ]);
 
 var menu = [ btnHome, btnPortfolio, btnCV, btnAbout ];
@@ -147,8 +148,13 @@ $(document).ready(function() {
 		});
 	});
 	$("#login").on("submit", "form", function() {
-		var username = $("input[name='username']").val();
-		var password = $("input[name='password']").val();
+		var unField = $("input[name='username']");
+		var pwField = $("input[name='password']");
+		var username = unField.val();
+		var password = pwField.val();
+		
+		unField.val("");
+		pwField.val("");
 
 		$.post("authenticate.php", {
 			username : username,
@@ -157,5 +163,8 @@ $(document).ready(function() {
 			alert("logging in");
 		});
 		return false;
+	});
+	$("#mainMenu, #subMenu").on("click", "li", function() {
+		$("#login").fadeOut(100);
 	});
 });

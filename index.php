@@ -19,7 +19,7 @@
 		</div>
 		<div id="content"></div>
 		<div id="footer">
-			Site created using HTML5, CSS3, JavaScript and jQuery</br>Current server
+			Site created using HTML5, CSS3, PHP5, JavaScript and jQuery</br>Current server
 			time:
 			<?php echo date("H:i:s a")?>
 			<span id="loginToggle" class="link"> - login</span>

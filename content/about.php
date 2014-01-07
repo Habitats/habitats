@@ -2,7 +2,7 @@
 <p>Hello! My name is Patrick and I'm a nerd. Since you managed to
 	stumble upon this page I assume you're either overly interested in my
 	work, or is trying to hack me. I would appricaite if you'd refrain from
-	doing so!</p>
+	doing the latter!</p>
 
 <h2>The purpose</h2>
 <p>The purpose of this site is have a conjoined portal where I can
