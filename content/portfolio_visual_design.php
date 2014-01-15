@@ -1,5 +1,5 @@
 <h1>Visual Design</h1>
-<h4>- Visually appealing contributions</h4>
+<h4>- Plausible visually appealing contributions</h4>
 <p>Pellentesque habitant morbi tristique senectus et netus et
 	malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat
 	vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet
