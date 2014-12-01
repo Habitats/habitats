@@ -1,6 +1,6 @@
 Habitats
 ========
 
-Personal Website
+Personal Website - Work in progress
 
 www.habitats.no

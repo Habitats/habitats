@@ -1,195 +1,196 @@
 @CHARSET "ISO-8859-1";
 
 html {
-	font-family: Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 body {
-	background-color: #F2F2F2;
-	background-image: url("img/bg.png");
-	background-position: center;
-	background-attachment:fixed;
-	background-repeat: repeat-y;
-	margin: 0;
-	padding: 0;
-	margin: 0;
+    background-color: #F2F2F2;
+    background-image: url("img/bg.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 /* main heading */
 #content h1 {
-	font-size: 2em;
-	font-weight: 100;
-	margin: 50px 0 0 0;
+    font-size: 2em;
+    font-weight: 100;
+    margin: 50px 0 0 0;
 }
 
 /* sub title */
 #content h2 {
-	font-size: 1.3em;
-	font-weight: 100;
-	margin: 30px 0 0 0;
+    font-size: 1.3em;
+    font-weight: 100;
+    margin: 30px 0 0 0;
 }
 
 /* tiny subtitle */
 #content h3 {
-	display: inline-block;
-	font-size: 1em;
-	font-weight: 100;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 100;
 }
 
 /* subtitle for main heading */
 #content h4 {
-	font-size: 0.8em;
-	font-weight: 100;
-	font-style: italic;
-	margin: 0 0 10px 50px;
+    font-size: 0.8em;
+    font-weight: 100;
+    font-style: italic;
+    margin: 0 0 10px 50px;
 }
 
 #content p {
-	margin: 20px 0 0 30px;
-	font-size: 0.9em;
+    margin: 20px 0 0 30px;
+    font-size: 0.9em;
 }
 
 #mainFrame {
-	height: 100%;
-	width: 960px;
-	display: block;
-	/* 	background-color: lime; */
-	margin: 0 auto 0 auto;
+    height: 100%;
+    width: 960px;
+    display: block;
+    /* 	background-color: lime; */
+    margin: 0 auto 0 auto;
 }
 
 #header {
-	display: block;
-	height: 100px;
+    display: block;
+    height: 100px;
 }
 
 #mainMenu {
-	height: 50px;
-	padding: 0 20px;
-	margin-bottom: 30px;
+    height: 50px;
+    padding: 0 20px;
+    margin-bottom: 30px;
 }
 
 #mainMenu ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-	/*can't center elements if width is undefined'*/
-	width: 100%;
-	float: left;
-	height: 48px;
-	text-align: left;
-	display: block;
-	background-image: url("img/hor_line.png");
-	background-position: bottom;
-	background-repeat: repeat-x;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /*can't center elements if width is undefined'*/
+    width: 100%;
+    float: left;
+    height: 48px;
+    text-align: left;
+    display: block;
+    background-image: url("img/hor_line.png");
+    background-position: bottom;
+    background-repeat: repeat-x;
 }
 
 #mainMenu ul li {
-	/*display: inline-block;*/
-	padding: 5px 10px;
-	margin: 0;
-	width: 150px;
-	height: 30px;
-	/*width:100px;*/
-	display: inline-block;
-	/*removes unwanted space between elements that're "block in-ine"*/
-	float: left;
-	background-image: url("img/vert_line.png");
-	background-repeat: repeat-y;
-	background-position: right;
-	text-align: right;
-	font-size: 1.3em;
+    /*display: inline-block;*/
+    padding: 5px 10px;
+    margin: 0;
+    width: 150px;
+    height: 30px;
+    /*width:100px;*/
+    display: inline-block;
+    /*removes unwanted space between elements that're "block in-ine"*/
+    float: left;
+    background-image: url("img/vert_line.png");
+    background-repeat: repeat-y;
+    background-position: right;
+    text-align: right;
+    font-size: 1.3em;
 }
 
 .link:hover {
-	color: #595959;
+    color: #595959;
 }
 
 #subMenu {
-	height: 100%;
-	width: 190px;
-	display: inline-block;
-	float: left;
-	padding-top: 60px;
+    height: 100%;
+    width: 190px;
+    display: inline-block;
+    float: left;
+    padding-top: 60px;
 }
 
 #subMenu ul {
-	list-style: none;
+    list-style: none;
 }
 
 #subMenu ul li {
-	text-align: right;
-	font-size: 1.1em;
-	height: 40px;
-	padding-right: 10px;
-	line-height: 40px;
-	vertical-align: middle;
-	background-image: url("img/vert_line.png");
-	background-repeat: repeat-y;
-	background-position: right;
+    text-align: right;
+    font-size: 1.1em;
+    height: 40px;
+    padding-right: 10px;
+    line-height: 40px;
+    vertical-align: middle;
+    background-image: url("img/vert_line.png");
+    background-repeat: repeat-y;
+    background-position: right;
 }
 
 li div {
-	padding-bottom: 5px;
-	position: relative;
-	display: inline-block;
-	height: 100%;
+    padding-bottom: 5px;
+    position: relative;
+    display: inline-block;
+    height: 100%;
 }
 
 #content {
-	height: auto;
-	width: 55%;
-	display: inline-block;
-	float: left;
-	padding-left: 50px;
-	min-height: 400px;
+    height: auto;
+    width: 55%;
+    display: inline-block;
+    float: left;
+    padding-left: 50px;
+    min-height: 400px;
 }
 
 #contact {
-	margin: 30px 0 0 0;
+    margin: 30px 0 0 0;
 }
-#contact th{
-	text-align: right;
-	font-size: 0.8em;
-	font-weight: 100;
-	vertical-align: top;
-	padding: 6px 0 0 0;
+
+#contact th {
+    text-align: right;
+    font-size: 0.8em;
+    font-weight: 100;
+    vertical-align: top;
+    padding: 6px 0 0 0;
 
 }
 
 #footer {
-	height: 30px;
-	display: block;
-	clear: both;
-	bottom: 0;
-	text-align: right;
-	font-size: 0.6em;
-	color: #595959;
-	padding:10px 190px 20px 400px;
-	bottom: 0;
+    height: 30px;
+    display: block;
+    clear: both;
+    bottom: 0;
+    text-align: right;
+    font-size: 0.6em;
+    color: #595959;
+    padding: 10px 190px 20px 400px;
+    bottom: 0;
 }
 
 #login {
-	display: none;
-	margin: 0;
-	height: auto;
-	width: auto;
-	text-align: right;
-	float: rigth;
+    display: none;
+    margin: 0;
+    height: auto;
+    width: auto;
+    text-align: right;
+    float: rigth;
 }
 
 /*replicate link behavior on custom elements*/
 .link {
-	cursor: hand;
-	cursor: pointer;
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
+    cursor: hand;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .link:hover {
-	/* 	font-style: italic; */
-	
+    /* 	font-style: italic; */
+
 }
